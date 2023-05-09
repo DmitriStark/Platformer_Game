@@ -222,7 +222,10 @@ function animate() {
 
 
 }
-animate()
+window.onload =function(){
+    animate()
+
+}
 
 window.addEventListener("keydown", (event) => {
     switch (event.key) {
