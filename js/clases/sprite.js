@@ -17,8 +17,10 @@ class Sprite {
         this.elapsedFrames = 0
 
     }
-    draw() {
-        if (!this.image) return
+    draw(){
+    
+    if (!this.image) return
+    
         const cropbox = {
             position: {
                 x: this.currentFrame * (this.image.width / this.frameRate),
@@ -28,7 +30,6 @@ class Sprite {
             height: this.image.height
         }
         ctx.drawImage(
-            image.onload = () => {
             this.image,
             cropbox.position.x,
             cropbox.position.y,
@@ -37,7 +38,7 @@ class Sprite {
             this.position.x,
             this.position.y,
             this.width,
-            this.height}
+            this.height
         )
     }
     update() {

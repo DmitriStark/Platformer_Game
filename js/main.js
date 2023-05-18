@@ -64,56 +64,56 @@ const player = new Player({
     },
     collisionBlocks,
     platformCollisionBlocks,
-    imageSrc: "./img/warrior/idle.png",
+    imageSrc: "img/warrior/idle.png",
     frameRate: 8,
 
 
 
     animations: {
         idle: {
-            imageSrc: "./img/warrior/idle.png",
+            imageSrc: "img/warrior/idle.png",
             frameRate: 8,
             frameBuffer: 3
 
         },
         idleleft: {
-            imageSrc: "./img/warrior/idleLeft.png",
+            imageSrc: "img/warrior/idleLeft.png",
             frameRate: 8,
             frameBuffer: 3
 
         },
         run: {
-            imageSrc: "./img/warrior/Run.png",
+            imageSrc: "img/warrior/Run.png",
             frameRate: 8,
             frameBuffer: 5
 
         },
         jump: {
-            imageSrc: "./img/warrior/jump.png",
+            imageSrc: "img/warrior/jump.png",
             frameRate: 2,
             frameBuffer: 3
 
         },
         jumpleft: {
-            imageSrc: "./img/warrior/jumpLeft.png",
+            imageSrc: "img/warrior/jumpLeft.png",
             frameRate: 2,
             frameBuffer: 3
 
         },
         fall: {
-            imageSrc: "./img/warrior/Fall.png",
+            imageSrc: "img/warrior/Fall.png",
             frameRate: 2,
             frameBuffer: 3
 
         },
         fallleft: {
-            imageSrc: "./img/warrior/FallLeft.png",
+            imageSrc: "img/warrior/FallLeft.png",
             frameRate: 2,
             frameBuffer: 3
 
         },
         runleft: {
-            imageSrc: "./img/warrior/RunLeft.png",
+            imageSrc: "img/warrior/RunLeft.png",
             frameRate: 8,
             frameBuffer: 5
 
@@ -142,7 +142,7 @@ const background = new Sprite({
         x: 0,
         y: 0
     },
-    imageSrc: "./img/background.png"
+    imageSrc: "img/background.png"
 
 })
 const backgroundImageHeight = 432
