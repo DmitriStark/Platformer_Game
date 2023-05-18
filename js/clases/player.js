@@ -1,3 +1,5 @@
+`use strict`
+
 class Player extends Sprite {
     constructor({
         position,

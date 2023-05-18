@@ -28,6 +28,7 @@ class Sprite {
             height: this.image.height
         }
         ctx.drawImage(
+            image.onload = () => {
             this.image,
             cropbox.position.x,
             cropbox.position.y,
@@ -36,7 +37,7 @@ class Sprite {
             this.position.x,
             this.position.y,
             this.width,
-            this.height
+            this.height}
         )
     }
     update() {
